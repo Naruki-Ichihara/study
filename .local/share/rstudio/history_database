@@ -13,3 +13,6 @@
 1631266539151:install.packages(c('tinytex', 'rmarkdown'))
 1631266554565:install.packages(c("tinytex", "rmarkdown"))
 1631266573479:tinytex::install_tinytex()
+1631283489330:install.packages('tinytex')
+1631283514722:tinytex::install_tinytex()
+1631283687639:install.packages("rticles")
