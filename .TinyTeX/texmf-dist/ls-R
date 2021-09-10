@@ -6203,6 +6203,7 @@ l3kernel
 l3packages
 latexconfig
 letltxmacro
+lineno
 lm
 mdwtools
 natbib
@@ -6662,6 +6663,13 @@ pdflatex.ini
 
 ./tex/latex/letltxmacro:
 letltxmacro.sty
+
+./tex/latex/lineno:
+ednmath0.sty
+edtable.sty
+fnlineno.sty
+lineno.sty
+vplref.sty
 
 ./tex/latex/lm:
 il2lmdh.fd
