@@ -6,7 +6,7 @@
         "description": "Copies the console output of a selected expression to the system clipboard",
         "interactive": false,
         "binding": "clipr_output",
-        "ordinal": 2
+        "ordinal": 8
     },
     "clipr::clipr_result": {
         "name": "Value to clipboard",
@@ -15,7 +15,7 @@
         "description": "Copies the results of a selected expression to the system clipboard",
         "interactive": false,
         "binding": "clipr_result",
-        "ordinal": 1
+        "ordinal": 7
     },
     "devtools::document": {
         "name": "Document a package",
@@ -24,7 +24,7 @@
         "description": "A wrapper for `roxygen`'s `roxygen2::roxygenize()`",
         "interactive": true,
         "binding": "document",
-        "ordinal": 8
+        "ordinal": 14
     },
     "devtools::test_active_file": {
         "name": "Run a test file",
@@ -33,7 +33,7 @@
         "description": "Run the current test file, using `devtools::test_active_file()`.",
         "interactive": true,
         "binding": "test_active_file",
-        "ordinal": 5
+        "ordinal": 11
     },
     "devtools::test_coverage": {
         "name": "Report test coverage for a package",
@@ -42,7 +42,7 @@
         "description": "Calculate and report the test coverage for the current package, using `devtools::test_coverage()`.",
         "interactive": true,
         "binding": "test_coverage",
-        "ordinal": 7
+        "ordinal": 13
     },
     "devtools::test_coverage_active_file": {
         "name": "Report test coverage for a file",
@@ -51,7 +51,25 @@
         "description": "Calculate and report test coverage for the current test file, using `devtools::test_coverage_active_file()`.",
         "interactive": true,
         "binding": "test_coverage_active_file",
-        "ordinal": 6
+        "ordinal": 12
+    },
+    "lintr::addin_lint": {
+        "name": "Lint current file",
+        "package": "lintr",
+        "title": "",
+        "description": "Runs lintr::lint on the current file",
+        "interactive": true,
+        "binding": "addin_lint",
+        "ordinal": 1
+    },
+    "lintr::addin_lint_package": {
+        "name": "Lint current package",
+        "package": "lintr",
+        "title": "",
+        "description": "Runs lintr::lint_package",
+        "interactive": true,
+        "binding": "addin_lint_package",
+        "ordinal": 2
     },
     "reprex::reprex_addin": {
         "name": "Render reprex...",
@@ -60,7 +78,7 @@
         "description": "Run `reprex::reprex()` to prepare a reproducible example for sharing.",
         "interactive": true,
         "binding": "reprex_addin",
-        "ordinal": 3
+        "ordinal": 9
     },
     "reprex::reprex_selection": {
         "name": "Reprex selection",
@@ -69,6 +87,42 @@
         "description": "Prepare reprex from current selection",
         "interactive": false,
         "binding": "reprex_selection",
+        "ordinal": 10
+    },
+    "styler::set_style_transformers": {
+        "name": "Set style",
+        "package": "styler",
+        "title": "",
+        "description": "Prompt for and set the style transformers used by all styler addins",
+        "interactive": true,
+        "binding": "set_style_transformers",
+        "ordinal": 3
+    },
+    "styler::style_active_file": {
+        "name": "Style active file",
+        "package": "styler",
+        "title": "",
+        "description": "Pretty-print active file",
+        "interactive": true,
+        "binding": "style_active_file",
+        "ordinal": 5
+    },
+    "styler::style_active_pkg": {
+        "name": "Style active package",
+        "package": "styler",
+        "title": "",
+        "description": "Pretty-print active package",
+        "interactive": true,
+        "binding": "style_active_pkg",
+        "ordinal": 6
+    },
+    "styler::style_selection": {
+        "name": "Style selection",
+        "package": "styler",
+        "title": "",
+        "description": "Pretty-print selection",
+        "interactive": true,
+        "binding": "style_selection",
         "ordinal": 4
     }
 }
