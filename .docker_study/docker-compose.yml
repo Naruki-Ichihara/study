@@ -1,7 +1,6 @@
 version: '3'
 services:
   rstudio:
-    build: .
     image: ichiharanaruki/study:latest
     container_name: study
     environment: 
