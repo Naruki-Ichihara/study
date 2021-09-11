@@ -1,3 +1,7 @@
 {
-    "rmd_preferred_template_path": "/usr/local/lib/R/site-library/rticles/rmarkdown/templates/springer"
+    "initial_working_directory": "~",
+    "default_latex_program": "XeLaTeX",
+    "pdf_previewer": "system",
+    "posix_terminal_shell": "bash",
+    "rmd_preferred_template_path": "/usr/local/lib/R/site-library/rticles/rmarkdown/templates/tf"
 }

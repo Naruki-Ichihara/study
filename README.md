@@ -1,7 +1,7 @@
 # study
 ## General introduction
 study is a docker-environment for the scientific writing.
-This container is based on the [rocker/tidyverse](https://hub.docker.com/r/rocker/tidyverse "dockerhub") including rstudio, TinyTeX and rticles.
+This container is based on the [rocker/verse](https://hub.docker.com/r/rocker/tidyverse "dockerhub") including rstudio, TeX and rticles.
 ## Usage
 First, pull the docker image from docker-hub using docker-compose.
 ```
